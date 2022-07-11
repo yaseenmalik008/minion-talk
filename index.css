@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(232, 232, 232);
+}
+textarea {
+  width: 40%;
+  height: 23vh;
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+  background-color: rgb(65, 151, 197);
+  color: rgb(29, 25, 25);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow:  1px 1px 10px white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+#outputDiv {
+  /* border: 2px solid black; */
+  width: 40%;
+  height: 23vh;
+  margin-top: 2rem;
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 10px white;
+  font-size: 1rem;
+  background-color: grey;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#btnTranslate {
+  /* margin-left: 23.5rem; */
+  margin-bottom: 2rem;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+  box-shadow:  1px 1px 10px rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: end;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+}
+#btnTranslate:hover {
+  color: lime;
+  background-color: black;
+}
+::placeholder {
+  color: white;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 100px;
+
+}
+footer a{
+    margin: 1rem;
+    color: white;
+ font-size: 3rem;
+ padding: 1rem;
+}
