@@ -24,3 +24,5 @@ btnTranslate.addEventListener("click", function clickhandler(){
     })
 })
 clickHandler()
+
+
